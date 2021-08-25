@@ -5,7 +5,7 @@ public class Deadline extends TaskItem {
     /**
      * Constructor for creating a Deadline object.
      * @param description description of the task.
-     * @param by the by-date of the task, e.g. "by Sunday"
+     * @param by the by-date of the task, e.g. "by Sunday".
      */
     public Deadline(String description, String by) {
         super(description);
